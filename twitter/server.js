@@ -32,13 +32,13 @@ app.use(express.json());
 //Upon start a webhook is registered with twitter
 //Upon closure the webhook is removed from twitter
 
-const twitterAPIKey = "Place your consumer key here";
-const twitterSecretAPIKey = "Place you secret consumer key here";
-const twitterAccessToken = "Place your access token here";
-const twitterSecretAccessToken = "Place your secret access token here";
+const twitterAPIKey = "bDDUkjs5Gj5QwLXx847xogM7Z";
+const twitterSecretAPIKey = "aVAqVsHDMeH8FVsl4mvuUwiG4gi7vYuBWDjB8JdOJS1OHrViUT";
+const twitterAccessToken = "1005049980996837377-TrOIexGhH5PqiyhI7oqa1Z6VLpog17";
+const twitterSecretAccessToken = "GTr5XxR9OKLPK6DhEIPR13D1D82aDqnWj55BmeKscWFLI";
 const targetUrl = "Place your server's url here";
-const projectId = "Place your dialogflow projectId here";
-const environmentName = "Place your twitter environment name here";
+const projectId = "adolhelper-iraqtv";
+const environmentName = "production";
 
 const twitterOAuth = {
   consumer_key: twitterAPIKey,
